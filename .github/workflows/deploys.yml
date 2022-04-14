@@ -12,7 +12,7 @@ jobs:
       - name: Unit tests
         run: ./gradlew test
 
-  andriod_tests:
+  android_tests:
     runs-on: [macos-latest]
     steps:
       - uses: actions/checkout@v2
