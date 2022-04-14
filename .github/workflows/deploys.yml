@@ -2,6 +2,7 @@ name: Deploy Test
 
 on:
   push:
+    branches: [ master ]
 
 jobs:
   unit_tests:
